@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { GET_FAQS } from "../../../redux/actions";
 import FaqsCreated from "./FaqsCreated";
-
+import '../../../scss/_faqAdmin.scss'
 
 export default function FaqCardContainer() {
 
